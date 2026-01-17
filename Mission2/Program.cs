@@ -9,7 +9,7 @@ internal class Program
         DiceRoll roll = new DiceRoll();
         // Calls the RollDice method within the DiceRoll class and assigns array values that are returned
         int[] counts = roll.RollDice(rolls);
-        
+        // Calls PrintHistogram Method and passed the array and roll count as parameters
         PrintHistogram(rolls, counts);
         Console.WriteLine("\nThank you for using the dice throwing simulator. Goodbye!");
     }
